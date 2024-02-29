@@ -1,0 +1,43 @@
+*{
+background-color: black;
+color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:100px;
+}
+.details{
+    font-size: 15px;
+}
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+input{
+    padding: 5px;
+    border: 1px solid aqua;
+}
+input::placeholder{
+    color: rgb(96, 91, 91);
+    font-size: 15px;
+}
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: green;
+    color: aliceblue;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+.result h1{
+    
+    color: aquamarine;
+}
