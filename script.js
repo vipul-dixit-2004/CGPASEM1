@@ -8,6 +8,10 @@ cal.addEventListener("click", () => {
   const ENG = document.getElementById("ENG").value;
   const MATH = document.getElementById("MATH").value;
   const CP = document.getElementById("CP").value;
+  const EngLab = document.getElementById("EngLab").value;
+  const DDLab = document.getElementById("DDLab").value;
+  const OTP101 = document.getElementById("OTP101").value;
+  const MatLab = document.getElementById("MatLab").value;
   const result =
     (CSP101 * 2 +
       CSP111 * 2 +
@@ -15,8 +19,12 @@ cal.addEventListener("click", () => {
       ECT103 * 4 +
       ENG * 2 +
       MATH * 4 +
-      CP * 3) /
-    21;
+      CP * 3 +
+      EngLab * 1 +
+      DDLab * 1 +
+      OTP * 2 +
+      MatLab * 1) /
+    26;
 
   console.log(result);
 
