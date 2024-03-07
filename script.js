@@ -22,7 +22,7 @@ cal.addEventListener("click", () => {
       CP * 3 +
       EngLab * 1 +
       DDLab * 1 +
-      OTP * 2 +
+      OTP101 * 2 +
       MatLab * 1) /
     26;
 
